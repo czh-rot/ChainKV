@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/session_util.go" description="func (s *session) fillRecord(r *sessionRecord, sna..." line="398" />
+    <bookmark url="file://$PROJECT_DIR$/session_util.go" description="func (s *session) newManifest(rec *sessionRecord, ..." line="464" />
+    <bookmark url="file://$PROJECT_DIR$/session_util.go" description="func (s *session) flushManifest(rec *sessionRecord..." line="522" />
+    <bookmark url="file://$PROJECT_DIR$/db.go" description="func (db *DB) GetProperty(name string) (value stri..." line="1276" />
+    <bookmark url="file://$PROJECT_DIR$/db_compaction.go" description="db.compactionTransact(&quot;table@build&quot;, b)" line="998" />
+    <bookmark url="file://$PROJECT_DIR$/db_compaction.go" description="func (b *tableCompactionBuilder) run_s(cnt *compac..." line="768" />
+    <bookmark url="file://$PROJECT_DIR$/version.go" description="func (v *version) incref() {" line="59" />
+    <bookmark url="file://$PROJECT_DIR$/version.go" description="type tablesScratch struct {" line="696" />
+    <bookmark url="file://$PROJECT_DIR$/db_compaction.go" description="func (db *DB) compactionTransactFunc_s(name string..." line="351" />
+    <bookmark url="file://$PROJECT_DIR$/db_util.go" description="func (db *DB) checkAndCleanFiles() error {" line="40" />
+    <bookmark url="file://$PROJECT_DIR$/version.go" description="func (p *versionStaging) commit(r *sessionRecord) ..." line="727" />
+    <bookmark url="file://$PROJECT_DIR$/version.go" description="func (p *versionStaging) commit_s(r *sessionRecord..." line="775" />
+    <bookmark url="file://$PROJECT_DIR$/version.go" description="func (p *versionStaging) finish(trivial bool) *ver..." line="829" />
+    <bookmark url="file://$PROJECT_DIR$/db.go" description="for level, tables := range v.levels {" line="1424" />
+    <bookmark url="file://$PROJECT_DIR$/db_state.go" description="type memDB struct {" line="22" />
+    <bookmark url="file://$PROJECT_DIR$/storage.go" description="func (c *iStorage) Create(fd storage.FileDesc) (st..." line="18" />
+    <bookmark url="file://$PROJECT_DIR$/batch.go" description="if seq &lt; expectSeq {" line="324" />
+    <bookmark url="file://$PROJECT_DIR$/storage/file_storage.go" description="func (fs *fileStorage) Create_s(fd FileDesc) (Writ..." line="508" />
+    <bookmark url="file://$PROJECT_DIR$/storage/mem_storage.go" description="func (ms *memStorage) Create_s(fd FileDesc) (Write..." line="43" />
+    <bookmark url="file://$PROJECT_DIR$/bench_test.go" description="func BenchmarkDBPut(b *testing.B) {" line="520" />
+    <bookmark url="file://$PROJECT_DIR$/bench_test.go" description="func BenchmarkDBPut_s(b *testing.B) {" line="526" />
+    <bookmark url="file://$PROJECT_DIR$/bench_test.go" description="func BenchmarkDBMergePut(b *testing.B) {" line="532" />
+    <bookmark url="file://$PROJECT_DIR$/bench_test.go" description="func BenchmarkDBWriteBatch(b *testing.B) {" line="438" />
+    <bookmark url="file://$PROJECT_DIR$/bench_test.go" description="func BenchmarkDBWrite_sBatch(b *testing.B) {" line="445" />
+    <bookmark url="file://$PROJECT_DIR$/bench_test.go" description="func BenchmarkDBWriteBatchMerge(b *testing.B) {" line="452" />
+    <bookmark url="file://$PROJECT_DIR$/session_compaction.go" description="func (s *session) pickCompaction() *compaction {" line="82" />
+    <bookmark url="file://$PROJECT_DIR$/session_compaction.go" description="func newCompaction(s *session, v *version, sourceL..." line="236" />
+    <bookmark url="file://$PROJECT_DIR$/db_write.go" description="//if err := db.writeJournal(batches, seq, sync); e..." line="407" />
+    <bookmark url="file://$PROJECT_DIR$/db_write.go" description="//if err := db.writeJournal_s(batches, seq, sync);..." line="521" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="676a2332-2f91-4d63-9997-ab7230811bf8" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6061">
+              <caret line="552" column="21" selection-start-line="552" selection-start-column="21" selection-end-line="552" selection-end-column="21" />
+              <folding>
+                <element signature="e#212#678#0" expanded="true" />
+                <element signature="e#7048#7468#0" />
+                <element signature="e#9669#9845#0" />
+                <element signature="e#9899#14306#0" />
+                <element signature="e#14705#15013#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db_write.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="549" column="74" lean-forward="true" selection-start-line="549" selection-start-column="74" selection-end-line="549" selection-end-column="74" />
+              <folding>
+                <element signature="e#482#805#0" />
+                <element signature="e#906#1176#0" />
+                <element signature="e#1243#1966#0" />
+                <element signature="e#2036#2837#0" />
+                <element signature="e#2903#4948#0" />
+                <element signature="e#5016#7118#0" />
+                <element signature="e#7142#7227#0" />
+                <element signature="e#7742#10761#0" />
+                <element signature="e#10863#13690#0" />
+                <element signature="e#14181#15410#0" />
+                <element signature="e#15475#16708#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/storage.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bench_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7030">
+              <caret line="452" selection-start-line="452" selection-end-line="452" />
+              <folding>
+                <element signature="e#2159#2699#0" />
+                <element signature="e#3737#4404#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/batch.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1311">
+              <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+              <folding>
+                <element signature="e#6993#7883#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/storage/file_storage.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9025">
+              <caret line="488" column="59" selection-start-line="488" selection-start-column="59" selection-end-line="488" selection-end-column="59" />
+              <folding>
+                <element signature="n#!!block;n#Create#0" />
+                <element signature="n#!!block;n#Rename#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/session_compaction.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2413">
+              <caret line="315" column="18" selection-start-line="315" selection-start-column="18" selection-end-line="315" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!block;n#pickMemdbLevel#0" />
+                <element signature="n#!!block;n#pickMemdbLevel_s#0" />
+                <element signature="n#!!block;n#pickCompaction#0" />
+                <element signature="n#!!block;n#pickCompaction_s#0" />
+                <element signature="n#!!block;n#getCompactionRange#0" />
+                <element signature="n#!!block;n#getCompactionRange_s#0" />
+                <element signature="n#!!block;n#newCompaction_s#0" />
+                <element signature="n#!!block;n#save#0" />
+                <element signature="n#!!block;n#restore#0" />
+                <element signature="n#!!block;n#release#0" />
+                <element signature="n#!!block;n#expand_s#0" />
+                <element signature="n#!!block;n#baseLevelForKey#0" />
+                <element signature="n#!!block;n#shouldStopBefore#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+              <folding>
+                <element signature="e#4621#6660#0" />
+                <element signature="e#6789#8621#0" />
+                <element signature="e#8683#8981#0" />
+                <element signature="e#9044#9348#0" />
+                <element signature="e#9447#9888#0" />
+                <element signature="e#9988#10432#0" />
+                <element signature="e#10480#10516#0" />
+                <element signature="e#20855#26666#0" />
+                <element signature="e#26724#29589#0" />
+                <element signature="e#29647#32690#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/table.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9842">
+              <caret line="598" column="4" selection-start-line="598" selection-start-column="4" selection-end-line="598" selection-end-column="4" />
+              <folding>
+                <element signature="e#6024#7636#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db_compaction.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11761">
+              <caret line="1016" column="34" selection-start-line="1016" selection-start-column="34" selection-end-line="1016" selection-end-column="34" />
+              <folding>
+                <element signature="e#495#561#0" />
+                <element signature="e#600#667#0" />
+                <element signature="e#735#774#0" />
+                <element signature="e#794#903#0" />
+                <element signature="e#941#996#0" />
+                <element signature="e#1033#1101#0" />
+                <element signature="e#1115#1158#0" />
+                <element signature="e#1213#1382#0" />
+                <element signature="e#1464#1569#0" />
+                <element signature="e#1603#2512#0" />
+                <element signature="e#2631#2642#0" />
+                <element signature="e#2677#2809#0" />
+                <element signature="e#2888#4627#0" />
+                <element signature="e#4734#6499#0" />
+                <element signature="e#6529#6619#0" />
+                <element signature="e#6698#6724#0" />
+                <element signature="e#6877#6945#0" />
+                <element signature="e#6996#7064#0" />
+                <element signature="e#7185#7255#0" />
+                <element signature="e#7381#7457#0" />
+                <element signature="e#7498#7538#0" />
+                <element signature="e#7604#7815#0" />
+                <element signature="e#7882#8095#0" />
+                <element signature="e#8127#10397#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>read</find>
+      <find>run</find>
+      <find>首先</find>
+      <find>存储</find>
+      <find>1:</find>
+      <find>vtask</find>
+      <find>于re</find>
+      <find>incref</find>
+      <find>levels</find>
+      <find>gp</find>
+      <find>commit_2</find>
+      <find>This is l</find>
+      <find>*memdb.DB</find>
+      <find>type mem</find>
+      <find>journal2</find>
+      <find>fmt.print</find>
+      <find>删除所有过时的文件</find>
+      <find>commit</find>
+      <find>vT</find>
+      <find>scratch</find>
+      <find>Remove</find>
+      <find>List</find>
+      <find>mu.L</find>
+      <find>flushManifest</find>
+      <find>createFrom_</find>
+      <find>Unlock</find>
+      <find>createFrom</find>
+      <find>Create</find>
+      <find>BenchmarkDBPut</find>
+      <find>ASDASDASDASADADADAD</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>journal</replace>
+    </replaceStrings>
+  </component>
+  <component name="GOROOT" path="F:\Go" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Documents/WeChat Files/M1244695706/FileStorage/File/2020-04/sm3/sm3.go" />
+        <option value="$USER_HOME$/Documents/WeChat Files/M1244695706/FileStorage/File/2020-04/sm3/sha3.go" />
+        <option value="$PROJECT_DIR$/testutil/storage.go" />
+        <option value="$PROJECT_DIR$/session_record.go" />
+        <option value="$PROJECT_DIR$/journal/journal.go" />
+        <option value="$PROJECT_DIR$/session_util.go" />
+        <option value="$PROJECT_DIR$/db_util.go" />
+        <option value="$PROJECT_DIR$/session.go" />
+        <option value="$PROJECT_DIR$/version.go" />
+        <option value="$PROJECT_DIR$/corrupt_test.go" />
+        <option value="$PROJECT_DIR$/memdb/memdb.go" />
+        <option value="$PROJECT_DIR$/db_state.go" />
+        <option value="$PROJECT_DIR$/batch.go" />
+        <option value="$PROJECT_DIR$/opt/options.go" />
+        <option value="$PROJECT_DIR$/storage/storage.go" />
+        <option value="$PROJECT_DIR$/storage.go" />
+        <option value="$PROJECT_DIR$/storage/mem_storage.go" />
+        <option value="$PROJECT_DIR$/session_compaction.go" />
+        <option value="$PROJECT_DIR$/table.go" />
+        <option value="$PROJECT_DIR$/storage/file_storage.go" />
+        <option value="$PROJECT_DIR$/db_transaction.go" />
+        <option value="$PROJECT_DIR$/db_compaction.go" />
+        <option value="$PROJECT_DIR$/db.go" />
+        <option value="$PROJECT_DIR$/bench_test.go" />
+        <option value="$PROJECT_DIR$/db_write.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="30" />
+    <option name="y" value="10" />
+    <option name="width" value="1120" />
+    <option name="height" value="630" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="leveldb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leveldb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leveldb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../IntoFile" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.BenchmarkDBWriteBatchMergeReaL in github.com/syndtr/goleveldb/leveldb">
+    <configuration name="BenchmarkDBWrite in github.com/syndtr/goleveldb/leveldb" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leveldb" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="github.com/syndtr/goleveldb/leveldb" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkDBWrite$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkDBWriteBatch in github.com/syndtr/goleveldb/leveldb" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leveldb" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="github.com/syndtr/goleveldb/leveldb" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkDBWriteBatch$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkDBWriteBatchMerge in github.com/syndtr/goleveldb/leveldb" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leveldb" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="github.com/syndtr/goleveldb/leveldb" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkDBWriteBatchMerge$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkDBWriteBatchMergeReaL in github.com/syndtr/goleveldb/leveldb" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leveldb" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="github.com/syndtr/goleveldb/leveldb" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkDBWriteBatchMergeReaL$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkDBWrite_sBatch in github.com/syndtr/goleveldb/leveldb" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leveldb" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="github.com/syndtr/goleveldb/leveldb" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkDBWrite_sBatch$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.BenchmarkDBWriteBatchMergeReaL in github.com/syndtr/goleveldb/leveldb" />
+        <item itemvalue="Go Test.BenchmarkDBWriteBatchMerge in github.com/syndtr/goleveldb/leveldb" />
+        <item itemvalue="Go Test.BenchmarkDBWrite_sBatch in github.com/syndtr/goleveldb/leveldb" />
+        <item itemvalue="Go Test.BenchmarkDBWriteBatch in github.com/syndtr/goleveldb/leveldb" />
+        <item itemvalue="Go Test.BenchmarkDBWrite in github.com/syndtr/goleveldb/leveldb" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BenchmarkDBWriteBatchMerge_in_github_com_syndtr_goleveldb_leveldb - 2020.05.04 at 23h 36m 31s.xml">
+      <configuration name="BenchmarkDBWriteBatchMerge in github.com/syndtr/goleveldb/leveldb" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkDBWriteBatch_in_github_com_syndtr_goleveldb_leveldb - 2020.05.11 at 17h 34m 31s.xml">
+      <configuration name="BenchmarkDBWriteBatch in github.com/syndtr/goleveldb/leveldb" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkDBWriteBatch_in_github_com_syndtr_goleveldb_leveldb - 2020.05.11 at 17h 35m 15s.xml">
+      <configuration name="BenchmarkDBWriteBatch in github.com/syndtr/goleveldb/leveldb" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkDBWrite_sBatch_in_github_com_syndtr_goleveldb_leveldb - 2020.05.11 at 17h 35m 40s.xml">
+      <configuration name="BenchmarkDBWrite_sBatch in github.com/syndtr/goleveldb/leveldb" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkDBWriteBatchMerge_in_github_com_syndtr_goleveldb_leveldb - 2020.05.11 at 17h 36m 13s.xml">
+      <configuration name="BenchmarkDBWriteBatchMerge in github.com/syndtr/goleveldb/leveldb" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkDBWriteBatchMergeReaL_in_github_com_syndtr_goleveldb_leveldb - 2020.05.11 at 17h 36m 33s.xml">
+      <configuration name="BenchmarkDBWriteBatchMergeReaL in github.com/syndtr/goleveldb/leveldb" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkDBWriteBatchMergeReaL_in_github_com_syndtr_goleveldb_leveldb - 2020.05.11 at 20h 09m 21s.xml">
+      <configuration name="BenchmarkDBWriteBatchMergeReaL in github.com/syndtr/goleveldb/leveldb" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkDBWriteBatchMergeReaL_in_github_com_syndtr_goleveldb_leveldb - 2020.05.11 at 20h 10m 39s.xml">
+      <configuration name="BenchmarkDBWriteBatchMergeReaL in github.com/syndtr/goleveldb/leveldb" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkDBWriteBatchMergeReaL_in_github_com_syndtr_goleveldb_leveldb - 2020.05.11 at 20h 11m 14s.xml">
+      <configuration name="BenchmarkDBWriteBatchMergeReaL in github.com/syndtr/goleveldb/leveldb" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkDBWriteBatchMergeReaL_in_github_com_syndtr_goleveldb_leveldb - 2020.05.11 at 20h 11m 42s.xml">
+      <configuration name="BenchmarkDBWriteBatchMergeReaL in github.com/syndtr/goleveldb/leveldb" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.067708336" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020107" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Profiler" order="12" sideWeight="0.49932975" weight="0.44554454" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/M1244695706/FileStorage/File/2020-04/sm3.go" />
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/M1244695706/FileStorage/File/2020-04/sm3/sha3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/M1244695706/FileStorage/File/2020-04/sm3/sm3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
+          <folding>
+            <element signature="e#634#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iterator/merged_iter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="429" column="5" selection-start-line="429" selection-start-column="5" selection-end-line="429" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_snapshot.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../ethereum/go-ethereum/ethdb/leveldb/leveldb.go" />
+    <entry file="file://$PROJECT_DIR$/../../../../syndtr/goleveldb/leveldb/db_state.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/GO/src/time/tick.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_iter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/writer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="236" column="17" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testutil/storage.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="246" column="38" lean-forward="true" selection-start-line="245" selection-end-line="246" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_util.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/GO/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/cache.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="89" column="17" lean-forward="true" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/options.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="105" column="34" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corrupt_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../ethereum/go-ethereum/ethdb/dbtest/testsuite.go" />
+    <entry file="file://$PROJECT_DIR$/session_util.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="333" column="18" selection-start-line="333" selection-start-column="18" selection-end-line="333" selection-end-column="18" />
+          <folding>
+            <element signature="e#1682#6574#0" />
+            <element signature="e#11615#12575#0" />
+            <element signature="e#12666#13009#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/GO/src/io/io.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/journal/journal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="269" column="17" selection-start-line="269" selection-start-column="17" selection-end-line="269" selection-end-column="17" />
+          <folding>
+            <element signature="e#4114#4782#0" />
+            <element signature="e#5257#5466#0" />
+            <element signature="e#5636#7432#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/buffer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="133" column="17" selection-start-line="133" selection-start-column="17" selection-end-line="133" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errors/errors.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session_record.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memdb/memdb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9367">
+          <caret line="739" column="13" selection-start-line="739" selection-start-column="13" selection-end-line="739" selection-end-column="13" />
+          <folding>
+            <element signature="e#804#1304#0" />
+            <element signature="e#1363#1863#0" />
+            <element signature="e#1894#1917#0" />
+            <element signature="e#1949#2301#0" />
+            <element signature="e#2334#2625#0" />
+            <element signature="e#2656#2989#0" />
+            <element signature="e#3021#3298#0" />
+            <element signature="e#3339#3701#0" />
+            <element signature="e#3743#4047#0" />
+            <element signature="e#4078#4409#0" />
+            <element signature="e#4441#4713#0" />
+            <element signature="e#4744#5002#0" />
+            <element signature="e#5034#5296#0" />
+            <element signature="e#5476#5585#0" />
+            <element signature="e#5615#5724#0" />
+            <element signature="e#5726#5775#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opt/options.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/GO/src/testing/benchmark.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="93" column="82" lean-forward="true" selection-start-line="93" selection-start-column="82" selection-end-line="93" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/mem_storage.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_state.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="365" column="20" selection-start-line="365" selection-start-column="20" selection-end-line="365" selection-end-column="20" />
+          <folding>
+            <element signature="e#2608#2826#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/storage.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="179" column="7" selection-start-line="179" selection-start-column="7" selection-end-line="179" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_transaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="338" column="43" lean-forward="true" selection-start-line="338" selection-start-column="43" selection-end-line="338" selection-end-column="43" />
+          <folding>
+            <element signature="e#2995#3568#0" />
+            <element signature="e#3608#4187#0" />
+            <element signature="e#6887#8355#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/GO/src/sync/mutex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="196" column="5" lean-forward="true" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="221" column="18" selection-start-line="221" selection-start-column="18" selection-end-line="221" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!block;n#newSession#0" />
+            <element signature="n#!!block;n#close#0" />
+            <element signature="n#!!block;n#recover#0" />
+            <element signature="n#!!block;n#commit_1#0" />
+            <element signature="n#!!block;n#commit_s#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/GO/src/os/file.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="357" column="5" selection-start-line="357" selection-start-column="5" selection-end-line="357" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/GO/src/sync/atomic/doc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6061">
+          <caret line="552" column="21" selection-start-line="552" selection-start-column="21" selection-end-line="552" selection-end-column="21" />
+          <folding>
+            <element signature="e#212#678#0" expanded="true" />
+            <element signature="e#7048#7468#0" />
+            <element signature="e#9669#9845#0" />
+            <element signature="e#9899#14306#0" />
+            <element signature="e#14705#15013#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bench_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7030">
+          <caret line="452" selection-start-line="452" selection-end-line="452" />
+          <folding>
+            <element signature="e#2159#2699#0" />
+            <element signature="e#3737#4404#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding>
+            <element signature="e#6993#7883#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/file_storage.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9025">
+          <caret line="488" column="59" selection-start-line="488" selection-start-column="59" selection-end-line="488" selection-end-column="59" />
+          <folding>
+            <element signature="n#!!block;n#Create#0" />
+            <element signature="n#!!block;n#Rename#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session_compaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2413">
+          <caret line="315" column="18" selection-start-line="315" selection-start-column="18" selection-end-line="315" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!block;n#pickMemdbLevel#0" />
+            <element signature="n#!!block;n#pickMemdbLevel_s#0" />
+            <element signature="n#!!block;n#pickCompaction#0" />
+            <element signature="n#!!block;n#pickCompaction_s#0" />
+            <element signature="n#!!block;n#getCompactionRange#0" />
+            <element signature="n#!!block;n#getCompactionRange_s#0" />
+            <element signature="n#!!block;n#newCompaction_s#0" />
+            <element signature="n#!!block;n#save#0" />
+            <element signature="n#!!block;n#restore#0" />
+            <element signature="n#!!block;n#release#0" />
+            <element signature="n#!!block;n#expand_s#0" />
+            <element signature="n#!!block;n#baseLevelForKey#0" />
+            <element signature="n#!!block;n#shouldStopBefore#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="e#4621#6660#0" />
+            <element signature="e#6789#8621#0" />
+            <element signature="e#8683#8981#0" />
+            <element signature="e#9044#9348#0" />
+            <element signature="e#9447#9888#0" />
+            <element signature="e#9988#10432#0" />
+            <element signature="e#10480#10516#0" />
+            <element signature="e#20855#26666#0" />
+            <element signature="e#26724#29589#0" />
+            <element signature="e#29647#32690#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9842">
+          <caret line="598" column="4" selection-start-line="598" selection-start-column="4" selection-end-line="598" selection-end-column="4" />
+          <folding>
+            <element signature="e#6024#7636#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_compaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11761">
+          <caret line="1016" column="34" selection-start-line="1016" selection-start-column="34" selection-end-line="1016" selection-end-column="34" />
+          <folding>
+            <element signature="e#495#561#0" />
+            <element signature="e#600#667#0" />
+            <element signature="e#735#774#0" />
+            <element signature="e#794#903#0" />
+            <element signature="e#941#996#0" />
+            <element signature="e#1033#1101#0" />
+            <element signature="e#1115#1158#0" />
+            <element signature="e#1213#1382#0" />
+            <element signature="e#1464#1569#0" />
+            <element signature="e#1603#2512#0" />
+            <element signature="e#2631#2642#0" />
+            <element signature="e#2677#2809#0" />
+            <element signature="e#2888#4627#0" />
+            <element signature="e#4734#6499#0" />
+            <element signature="e#6529#6619#0" />
+            <element signature="e#6698#6724#0" />
+            <element signature="e#6877#6945#0" />
+            <element signature="e#6996#7064#0" />
+            <element signature="e#7185#7255#0" />
+            <element signature="e#7381#7457#0" />
+            <element signature="e#7498#7538#0" />
+            <element signature="e#7604#7815#0" />
+            <element signature="e#7882#8095#0" />
+            <element signature="e#8127#10397#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_write.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="549" column="74" lean-forward="true" selection-start-line="549" selection-start-column="74" selection-end-line="549" selection-end-column="74" />
+          <folding>
+            <element signature="e#482#805#0" />
+            <element signature="e#906#1176#0" />
+            <element signature="e#1243#1966#0" />
+            <element signature="e#2036#2837#0" />
+            <element signature="e#2903#4948#0" />
+            <element signature="e#5016#7118#0" />
+            <element signature="e#7142#7227#0" />
+            <element signature="e#7742#10761#0" />
+            <element signature="e#10863#13690#0" />
+            <element signature="e#14181#15410#0" />
+            <element signature="e#15475#16708#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
