@@ -9,8 +9,6 @@ ChainKV is a fast key-value storage library  specifically designed for blockchai
 > * Fixes for critical bugs, such as data loss or memory corruption
 > * Changes absolutely needed by internally supported Geth clients. These typically fix breakage introduced by a language/standard library/OS update
 
-Authors: Zehao Chen(zehaochen04@gmail.com)
-
 ### Features 
 
 ------
