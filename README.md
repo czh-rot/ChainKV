@@ -29,6 +29,25 @@ ChainKV is a fast key-value storage library  specifically designed for blockchai
 
 - There is no client-server support built in to the library. An application that needs such support will have to wrap their own server around the library.
 
+### Code Organization
+------
+The organization of code is as follows:
+~~~
+---Advanced KV Store
+    |--cache-sgc 		/*SGC policy*/
+    |--cache-cache
+    |--other files      /*leveldb*/
+---Prefix MPT
+	|--trie.go 			/*column prefix*/
+	|--trie_test.go 	/*generate workloads*/
+---Test Bench
+	|--WR_test.go		/*test bench*/
+~~~
+
+If you want to re-create the project, you must build a private network to re-synchronize the historical data from the Ethereum mainnet. Then, you can adopt `trie_test.go` to re-generate the workloads. 
+
+Before starting all test bench, you must replace the original goleveldb with the advanced KV store and allocate the data into 2 LSM-trees.
+
 ### Building Data
 
 ------
