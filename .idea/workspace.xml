@@ -37,6 +37,125 @@
   <component name="ChangeListManager">
     <list default="true" id="676a2332-2f91-4d63-9997-ab7230811bf8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/Mydb_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache-lru/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache-lru/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache-lru/cache_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache-lru/lru.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/cache_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/lru.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparer/bytes_comparer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparer/comparer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corrupt_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_compaction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_snapshot.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_state.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_transaction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_write.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethdb/database.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethdb/interface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/external_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filter/bloom.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filter/bloom_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filter/filter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iterator/array_iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iterator/array_iter_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iterator/indexed_iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iterator/indexed_iter_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iterator/iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iterator/iter_suite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iterator/merged_iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iterator/merged_iter_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/journal/journal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/journal/journal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/key.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/key_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb_suite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memdb/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memdb/memdb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memdb/memdb_.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memdb/memdb_suite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memdb/memdb_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/opt/options.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/options.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session_compaction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session_record.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session_record_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session_util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/file_storage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/file_storage_nacl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/file_storage_plan9.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/file_storage_solaris.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/file_storage_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/file_storage_unix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/file_storage_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/mem_storage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/mem_storage_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/storage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/block_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/reader.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/table.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/table_suite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/table_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/writer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testutil/db.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testutil/ginkgo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testutil/iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testutil/kv.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testutil/kvtest.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testutil/storage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testutil/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testutil_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/encoding.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/encoding_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/exper_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/hasher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/iterator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/iterator_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/node.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/node_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/proof.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/proof_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/secure_trie.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/secure_trie_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/sync.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/sync_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/trie.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/trie_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/buffer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/buffer_pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/buffer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/crc32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/hash.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/hash_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/range.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_test.go" beforeDir="false" />
+>>>>>>> 771b5dde903b70d59303d34070a9110ce62d94ff
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +285,11 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
+<<<<<<< HEAD
     "last_opened_file_path": "F:/GO_WorkSpace/gopath/src/AA_practice"
+=======
+    "last_opened_file_path": "C:/Users/12446"
+>>>>>>> 771b5dde903b70d59303d34070a9110ce62d94ff
   }
 }]]></component>
   <component name="RunManager" selected="Go Test.BenchmarkDBWriteBatchMergeReaL in github.com/syndtr/goleveldb/leveldb">
