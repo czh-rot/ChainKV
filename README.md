@@ -2,6 +2,26 @@
 
 ------
 
+This work has been accepted by ACM SIGMOD 2024, If you can get inspiration from this work or build on this prototype for future development, please cite
+
+~~~
+@article{chen2023chainkv,
+  title={ChainKV: A Semantics-Aware Key-Value Store for Ethereum System},
+  author={Chen, Zehao and Li, Bingzhe and Cai, Xiaojun and Jia, Zhiping and Ju, Lei and Shao, Zili and Shen, Zhaoyan},
+  journal={Proceedings of the ACM on Management of Data},
+  volume={1},
+  number={4},
+  pages={1--23},
+  year={2023},
+  publisher={ACM New York, NY, USA}
+}
+
+~~~
+
+
+
+------
+
 ChainKV is a fast key-value storage library  specifically designed for blockchain systems.
 
 > **This repository is receiving very limited maintenance. We will only review the following types of changes.**
