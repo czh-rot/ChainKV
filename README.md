@@ -2,7 +2,7 @@
 
 ------
 
-This work has been accepted by ACM SIGMOD 2024, If you can get inspiration from this work or build on this prototype for future development, please cite
+**This work has been accepted by ACM SIGMOD 2024**, If you can get inspiration from this work or build on this prototype for future development, please cite
 
 ~~~
 @article{chen2023chainkv,
